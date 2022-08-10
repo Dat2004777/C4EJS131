@@ -132,6 +132,10 @@ ul.menu {
     color: rgb(255, 0, 0);
 }
 
+.project .btn {
+    margin: 70px;
+}
+
 .project a.btn {
     background: gray;
     border: 10px solid gray;
@@ -176,9 +180,14 @@ ul.menu {
     justify-content: space-between;
 }
 
+.contact .social_media a i {
+    padding-right: 10px;
+    font-size: 35px;
+}
+
 .contact .social_media a {
-    margin-top: 50px;
-    padding: 5px;
+    margin: 50px 50px 0 50px;
+    font-size: 35px;
     transition: 0.4s;
 }
 
@@ -210,10 +219,12 @@ ul.menu {
 }
 
 .bottom span.right {
+    margin-left: 250px;
     padding: 35px;
     flex: 1;
     color: white;
 }
+
 /* END FOOTER */
 
 /* REPEAT */
